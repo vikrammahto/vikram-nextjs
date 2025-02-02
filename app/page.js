@@ -3,6 +3,7 @@ import CtaBanner from "./components/CtaBanner";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Skills/>
       <Services/>
+      <Projects/>
       <CtaBanner />
     </React.Fragment>
   );
